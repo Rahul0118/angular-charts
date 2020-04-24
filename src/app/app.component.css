@@ -1,0 +1,9 @@
+.source {
+  padding: 0.2rem 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.source a{
+	text-decoration: none;
+}

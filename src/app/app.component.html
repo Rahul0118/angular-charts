@@ -1,0 +1,30 @@
+<ejs-chart [primaryXAxis] = 'xAxis' [primaryYAxis] = 'yAxis' [title] = 'chartTitle' [legendSettings]='legend' [tooltip]='tooltipSettings'>
+  <e-series-collection>
+    <e-series type='Line' [dataSource]='data' xName='month' yName='sales' [marker]='markerSettings'> 
+    </e-series>
+  </e-series-collection>
+</ejs-chart>
+
+<ejs-chart [primaryXAxis] = 'xAxis' [primaryYAxis] = 'yAxis' [title] = 'chartTitle1' [legendSettings]='legend' [tooltip]='tooltipSettings'>
+  <e-series-collection>
+    <e-series type='Bar' [dataSource]='data' xName='month' yName='sales' [marker]='markerSettings'>
+    </e-series>
+  </e-series-collection>
+</ejs-chart>
+
+<ejs-chart [primaryXAxis] = 'xAxis' [primaryYAxis] = 'yAxis' [title] = 'chartTitle2' [legendSettings]='legend' [tooltip]='tooltipSettings'>
+  <e-series-collection>
+    <e-series type='Polar' [dataSource]='data' xName='month' yName='sales' [marker]='markerSettings'>  
+    </e-series>
+  </e-series-collection>
+</ejs-chart>
+
+
+<div class="source">
+  <span role="img" aria-label="computer">
+    🖥️
+  </span>
+  <a href="https://github.com/Rahul0118/angular-charts" target="_blank">
+    Source code
+  </a>
+</div>
